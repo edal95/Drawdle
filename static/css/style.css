@@ -1,0 +1,38 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(5, 100px);
+	grid-gap: 2px;
+}
+.button {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.controls {
+	display: grid;
+	grid-template-columns: 100px 300px 100px;
+	grid-gap: 4px;
+	margin-top: 20px;
+}
+.control-button, .control-text {
+	height: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+}
+.control-text {
+	padding: 0 10px;
+	height:91% 
+}
