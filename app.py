@@ -33,7 +33,7 @@ def get_and_solve_board():
     # get key and return blank solution if invalid
     key = data.get('key', '')
     if len(key) != 5:
-        return jsonify({'match':[['     ']*5]})
+        return jsonify({'match':['     ']*6})
     # if trie failed to load
     if en_trie is None:
         return jsonify({'error': 'Data not loaded'}), 500

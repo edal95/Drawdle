@@ -46,7 +46,7 @@ async function draw(){
 	});
 	
 	if (!response.ok) {
-		throw new Error(`HTTP error! Status: ${resposne.status}`);
+		throw new Error(`HTTP error! Status: ${response.status}`);
 	}
 	
 	// get solution words, split into letters, and assign to board
