@@ -4,13 +4,18 @@ A simple drawing tool for NYT's Wordle.
 
 ## Installation
 
-Available on my public website, https://www.eyaldalal.com.
+1. Clone repository.
+2. pip install requirements.txt in a virtual environment.
+3. Run app.py from command line.
+4. Web app will be available on localhost:5000.
+
+Will be made available on my public website.
 
 ## Usage
 
 * Click to cycle through colors for each square.
 * Type in the 5-letter solution to today's Wordle.
-* Click draw.
+* Click Draw.
 
 ## Notes
 
